@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 
 function Hello() {
   useEffect(() => {
-    console.log("C");
-    return () => console.log("D");
+    console.log("created");
+    return () => console.log("destroyed");
   }, []);
   return <h1>Hello</h1>;
 }
