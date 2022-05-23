@@ -5,7 +5,7 @@ function Hello() {
     console.log("created");
     return () => console.log("destroyed");
   }, []);
-  return <h1></h1>;
+  return <h1>Hello</h1>;
 }
 
 function App() {
